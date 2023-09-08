@@ -1,0 +1,338 @@
+@media (min-width: 400px) {
+  .first-line,
+  .second-line {
+    flex-direction: column;
+  }
+  .first-line .item,
+  .second-line .item {
+    gap: 60px;
+  }
+  #header2 {
+    display: none;
+  }
+  #hero {
+    height: 100%;
+    padding: 50px 0px;
+  }
+  #hero .right {
+    display: none;
+  }
+  #hero p.title {
+    font-size: 52px;
+    text-align: center;
+  }
+  #hero p.you-speak {
+    font-size: 22px;
+  }
+  #hero svg.you-speak {
+    width: 100px;
+    height: 30px;
+  }
+  #hero div.you-speak {
+    align-items: center;
+  }
+  #hero .left button.hero-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    width: 100%;
+    padding: 10px 10px;
+    justify-content: end;
+  }
+  #hero .left button.hero-btn span {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    position: absolute;
+    left: 13px;
+  }
+  #advantages p.adv {
+    font-size: 44px;
+    text-align: center;
+  }
+  #advantages p.lvl-eng {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #advantages p.sch {
+    font-size: 35px;
+  }
+  #advantages .items {
+    flex-direction: column;
+  }
+  #advantages .first-line,
+  #advantages .second-line {
+    display: flex;
+    flex-direction: column;
+  }
+  #advantages .items {
+    gap: 20px;
+  }
+  #about {
+    height: 100%;
+  }
+  #about div.img img {
+    display: none;
+  }
+  #about .title {
+    flex-direction: column;
+  }
+  #about .title p {
+    text-align: center;
+  }
+  #about .right .second-text {
+    bottom: 0px;
+  }
+  #form {
+    height: 100%;
+  }
+  #form .container {
+    flex-direction: column;
+  }
+  #form .container .right {
+    display: none;
+  }
+  #form .container .text-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  #form .container .under-txt {
+    text-align: center;
+  }
+  #form form {
+    flex-direction: column;
+  }
+  #how-it-works {
+    padding: 50px 0px;
+  }
+  #how-it-works .container p.title {
+    font-size: 45px;
+  }
+  #teachers {
+    padding: 50px 0px;
+  }
+  #teachers .container p.title {
+    font-size: 35px;
+    text-align: center;
+  }
+  #teachers .container .item {
+    flex-direction: column;
+    align-items: center;
+  }
+  #prices .container p.title {
+    font-size: 35px;
+    text-align: center;
+  }
+  #prices .container .prices {
+    flex-direction: column;
+  }
+  #reviews .container .head {
+    flex-direction: column;
+  }
+  #reviews .container .reviews {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #contact .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #contact .container .left p {
+    text-align: center;
+  }
+  #contact .container .social-media {
+    justify-content: center;
+    gap: 10px;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: start;
+  }
+  footer .container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media (min-width: 1200px) {
+  .first-line,
+  .second-line {
+    flex-direction: row;
+  }
+  .first-line .item,
+  .second-line .item {
+    gap: 60px;
+  }
+  #header {
+    display: none;
+  }
+  #header2 {
+    display: block;
+  }
+  #hero {
+    height: 100%;
+    padding: 50px 0px;
+  }
+  #hero .right {
+    display: block;
+  }
+  #hero p.title {
+    font-size: 72px;
+    text-align: start;
+  }
+  #hero p.you-speak {
+    font-size: 42px;
+  }
+  #hero svg.you-speak {
+    width: 100px;
+    height: 50px;
+  }
+  #hero div.you-speak {
+    align-items: center;
+  }
+  #hero .left button.hero-btn {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    width: 70%;
+    padding: 10px 10px;
+    justify-content: end;
+  }
+  #hero .left button.hero-btn span {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    position: absolute;
+    left: 122px;
+  }
+  #advantages p.adv {
+    font-size: 74px;
+    text-align: start;
+  }
+  #advantages p.lvl-eng {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #advantages p.sch {
+    font-size: 35px;
+    position: relative;
+    right: 500px;
+  }
+  #advantages .items {
+    flex-direction: column;
+  }
+  #advantages .first-line,
+  #advantages .second-line {
+    display: flex;
+    flex-direction: row;
+  }
+  #advantages .items {
+    gap: 20px;
+  }
+  #about {
+    height: 100%;
+  }
+  #about div.img img {
+    display: block;
+  }
+  #about .title {
+    flex-direction: row;
+  }
+  #about .title p {
+    text-align: start;
+  }
+  #about .right .second-text {
+    bottom: 50px;
+  }
+  #form {
+    height: 100%;
+  }
+  #form .container {
+    flex-direction: row;
+    align-items: center;
+  }
+  #form .container .right {
+    display: block;
+  }
+  #form .container .text-title {
+    font-size: 35px;
+    text-align: start;
+  }
+  #form .container .under-txt {
+    text-align: start;
+  }
+  #form form {
+    flex-direction: row;
+  }
+  #form form input {
+    width: 30%;
+  }
+  #how-it-works {
+    padding: 50px 0px;
+  }
+  #how-it-works .container p.title {
+    font-size: 45px;
+  }
+  #teachers {
+    padding: 50px 0px;
+  }
+  #teachers .container p.title {
+    font-size: 75px;
+    text-align: start;
+  }
+  #teachers .container .teachers {
+    align-items: center;
+  }
+  #teachers .container .second-line,
+  #teachers .container .first-line {
+    align-items: center;
+    justify-content: center;
+  }
+  #teachers .container .item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #prices .container p.title {
+    font-size: 35px;
+    text-align: center;
+  }
+  #prices .container .prices {
+    flex-direction: row;
+  }
+  #reviews .container .head {
+    flex-direction: row;
+  }
+  #reviews .container .reviews {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  #contact .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+  #contact .container .left p {
+    text-align: start;
+  }
+  #contact .container .right {
+    width: 50%;
+  }
+  #contact .container .social-media {
+    justify-content: center;
+    gap: 50px;
+  }
+  footer .container {
+    flex-direction: row;
+    align-items: start;
+  }
+  footer .container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}/*# sourceMappingURL=style.css.map */

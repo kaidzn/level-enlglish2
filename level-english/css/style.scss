@@ -1,0 +1,392 @@
+@media (min-width:400px){
+    .first-line,
+    .second-line{
+                    flex-direction: column;
+                    .item{
+                        gap: 60px;
+                    }
+                }
+    #header2{
+        display: none;
+    }
+    
+    #hero{
+
+        height: 100%;
+        padding: 50px 0px;
+        .right{
+            display: none;
+        }
+        p.title{
+            font-size: 52px;
+            text-align: center;
+        }
+        p.you-speak{
+            font-size: 22px;
+        }
+        svg.you-speak{
+            width: 100px;
+            height: 30px;
+        }
+        div.you-speak{
+            align-items: center;
+        }
+        .left{
+            button.hero-btn{
+              display: flex;
+              align-items: center;
+              border-radius: 35px;
+              width: 100%;
+              padding: 10px 10px;
+              justify-content: end;
+              span{
+                background-color: red;
+                color: white;
+                padding: 10px 10px;
+                position: absolute;
+                left: 13px;
+              }  
+            }
+        }
+
+    }
+    #advantages{
+        p.adv{
+            font-size: 44px;
+            text-align: center;
+        }
+        p.lvl-eng{
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        p.sch{
+            font-size: 35px;
+        }
+        .items{
+            flex-direction: column;
+        }
+        .first-line,
+        .second-line{
+            display: flex;
+            flex-direction: column;
+        }
+        .items{
+            gap: 20px;
+        }
+    }
+    #about{
+        height: 100%;
+        div.img img{
+            display: none;
+        }
+        .title{
+            flex-direction: column;
+            p{
+                text-align: center;
+            }
+        }
+        .right{
+            .second-text{
+                bottom: 0px;
+            }
+
+        }
+    }
+    #form{
+        height: 100%;
+        .container{
+            flex-direction: column;
+            .right{
+                display: none;
+            }
+            .text-title{
+                font-size: 35px;
+                text-align: center;
+            }
+            .under-txt{
+                text-align: center;
+            }
+        }
+        form{
+            flex-direction: column;
+        }
+    }
+    #how-it-works{
+        padding: 50px 0px;
+        .container{
+            p.title{
+                font-size: 45px;
+            }
+        }
+    }
+    #teachers{
+        padding: 50px 0px;
+        .container{
+            p.title{
+                font-size: 35px;
+                text-align: center;
+            }
+            .item{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+    }
+    #prices{
+        .container{
+            p.title{
+                font-size: 35px;
+                text-align: center;
+            }
+            .prices{
+                flex-direction: column;
+            }
+        }
+    }
+    #reviews{
+        .container{
+            .head{
+                flex-direction: column;
+            }
+            .reviews{
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    #contact{
+        .container{
+            flex-direction: column;
+            gap: 20px;
+            .left{
+                p{
+                    text-align: center;
+                }
+            }
+            .social-media{
+                justify-content: center;
+                gap: 10px;
+            }
+        }
+    }
+    footer{
+        .container{
+            flex-direction: column;
+            align-items: start;
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+    }
+}
+@media (min-width:1200px){
+    .first-line,
+    .second-line{
+                    flex-direction: row;
+                    .item{
+                        gap: 60px;
+                    }
+                }
+                #header{
+                    display: none;
+                }
+    #header2{
+        display: block;
+    }
+    #hero{
+        height: 100%;
+        padding: 50px 0px;
+        .right{
+            display: block;
+        }
+        p.title{
+            font-size: 72px;
+            text-align: start;
+        }
+        p.you-speak{
+            font-size: 42px;
+        }
+        svg.you-speak{
+            width: 100px;
+            height: 50px;
+        }
+        div.you-speak{
+            align-items: center;
+        }
+        .left{
+            button.hero-btn{
+              display: flex;
+              align-items: center;
+              border-radius: 35px;
+              width: 70%;
+              padding: 10px 10px;
+              justify-content: end;
+              span{
+                background-color: red;
+                color: white;
+                padding: 10px 10px;
+                position: absolute;
+                left: 122px;
+              }  
+            }
+        }
+
+    }
+    #advantages{
+        p.adv{
+            font-size: 74px;
+            text-align: start;
+        }
+        p.lvl-eng{
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        p.sch{
+            font-size: 35px;
+            position: relative;
+            right: 500px;
+        }
+        .items{
+            flex-direction: column;
+        }
+        .first-line,
+        .second-line{
+            display: flex;
+            flex-direction: row;
+        }
+        .items{
+            gap: 20px;
+        }
+    }
+    #about{
+        height: 100%;
+        div.img img{
+            display: block;
+        }
+        .title{
+            flex-direction: row;
+            p{
+                text-align: start;
+            }
+        }
+        .right{
+            .second-text{
+                bottom: 50px;
+            }
+
+        }
+    }
+    #form{
+        height: 100%;
+        .container{
+            flex-direction: row;
+            align-items: center;
+            .right{
+                display: block;
+            }
+            .text-title{
+                font-size: 35px;
+                text-align: start;
+            }
+            .under-txt{
+                text-align: start;
+            }
+        }
+        form{
+            flex-direction: row;
+            input{
+                width: 30%;
+            }
+        }
+    }
+    #how-it-works{
+        padding: 50px 0px;
+        .container{
+            p.title{
+                font-size: 45px;
+            }
+        }
+    }
+    #teachers{
+        padding: 50px 0px;
+        .container{
+            p.title{
+                font-size: 75px;
+                text-align: start;
+            }
+            .teachers{
+                align-items: center;
+            }
+            .second-line,
+            .first-line{
+                align-items: center;
+                justify-content: center;
+            }
+            .item{
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+            
+        }
+    }
+    #prices{
+        .container{
+            p.title{
+                font-size: 35px;
+                text-align: center;
+            }
+            .prices{
+                flex-direction: row;
+            }
+        }
+    }
+    #reviews{
+        .container{
+            .head{
+                flex-direction: row;
+            }
+            .reviews{
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    #contact{
+        .container{
+            flex-direction: row;
+            gap: 20px;
+            .left{
+                p{
+                    text-align: start;
+                }
+            }
+            .right{
+                width: 50%;
+            }
+            .social-media{
+                justify-content: center;
+                gap: 50px;
+            }
+        }
+    }
+    footer{
+        .container{
+            flex-direction: row;
+            align-items: start;
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+            }
+        }
+    }
+}
