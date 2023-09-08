@@ -9,7 +9,7 @@
     #header2{
         display: none;
     }
-    
+
     #hero{
 
         height: 100%;
@@ -97,6 +97,7 @@
         height: 100%;
         .container{
             flex-direction: column;
+            width: 90%;
             .right{
                 display: none;
             }
@@ -110,6 +111,13 @@
         }
         form{
             flex-direction: column;
+            input{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+                padding: 10px 20px;
+            }
         }
     }
     #how-it-works{
@@ -291,7 +299,7 @@
                 display: block;
             }
             .text-title{
-                font-size: 35px;
+                font-size: 55px;
                 text-align: start;
             }
             .under-txt{
@@ -301,7 +309,10 @@
         form{
             flex-direction: row;
             input{
-                width: 30%;
+                width: 100%;
+            }
+            button{
+                width: 100%;
             }
         }
     }
