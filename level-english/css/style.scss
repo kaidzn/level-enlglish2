@@ -32,21 +32,7 @@
             align-items: center;
         }
         .left{
-            button.hero-btn{
-              display: flex;
-              align-items: center;
-              border-radius: 35px;
-              width: 100%;
-              padding: 10px 10px;
-              justify-content: end;
-              span{
-                background-color: red;
-                color: white;
-                padding: 10px 10px;
-                position: absolute;
-                left: 13px;
-              }  
-            }
+            text-align: center;
         }
 
     }
@@ -115,7 +101,6 @@
                 width: 100%;
             }
             button{
-                width: 100%;
                 padding: 10px 20px;
             }
         }
@@ -227,21 +212,7 @@
             align-items: center;
         }
         .left{
-            button.hero-btn{
-              display: flex;
-              align-items: center;
-              border-radius: 35px;
-              width: 70%;
-              padding: 10px 10px;
-              justify-content: end;
-              span{
-                background-color: red;
-                color: white;
-                padding: 10px 10px;
-                position: absolute;
-                left: 100px;
-              }  
-            }
+            text-align: start;
         }
 
     }
